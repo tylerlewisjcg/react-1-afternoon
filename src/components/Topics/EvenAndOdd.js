@@ -25,7 +25,7 @@ export default class EvenAndOdd extends Component {
             if(userInput[i] % 2===0){
                 evens.push(userInput[i])
             }
-            else {
+            else if (userInput[i] % 2===1){
                 odds.push(userInput[i])
             }
         }
